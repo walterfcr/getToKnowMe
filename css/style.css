@@ -1,0 +1,11 @@
+.movies img, .series img {
+    width: 17%;
+    height: auto;
+    padding: 0 2% !important;
+}
+
+.battletoads img{
+    width:200px;
+    height:150px;
+    padding:0 50px;
+}
