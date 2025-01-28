@@ -1,5 +1,5 @@
 .movies img, .series img {
-    width: 17%;
+    width: 8%;
     height: auto;
     padding: 0 2% !important;
 }
@@ -8,4 +8,11 @@
     width:200px;
     height:150px;
     padding:0 50px;
+}
+
+.primer-slide, .segundo-slide {
+    background:url("../images/space.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
