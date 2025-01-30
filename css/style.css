@@ -10,9 +10,21 @@
     padding:0 50px;
 }
 
-.primer-slide, .segundo-slide {
-    background:url("../images/space.jpg") !important;
+.primer-slide {
+    background:url("../images/x.jpg") !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+}
+
+.segundo-slide {
+    background:url("../images/z.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.title h1{
+    color:#1cb2d8 !important;
+    text-shadow: none !important;
 }
