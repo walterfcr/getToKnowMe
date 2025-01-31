@@ -1,8 +1,48 @@
-.movies img, .series img {
-    width: 8%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    width: calc(10.5% - 10px); /* 8 columns, with gap space */
     height: auto;
-    padding: 0 2% !important;
-}
+    object-fit: cover;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 1024px) {
+    .gallery img {
+      width: calc(16.66% - 10px); /* 6 columns on medium screens */
+    }
+  }
+
+
+  .gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .gallery2 img {
+    width: calc(16.66% - 30px); /* 6 columns (100% / 6) */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Ensure exactly 6 items in 2 rows, i.e. 12 images total */
+  .gallery2 img:nth-child(n+7) {
+    margin-top: 10px; /* Adds spacing between the rows */
+  }
+
+
 
 .battletoads img{
     width:200px;
