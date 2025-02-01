@@ -43,13 +43,6 @@
   }
 
 
-
-.battletoads img{
-    width:200px;
-    height:150px;
-    padding:0 50px;
-}
-
 .primer-slide {
     background:url("../images/x.jpg") !important;
     background-position: center !important;
@@ -67,4 +60,60 @@
 .title h1{
     color:#1cb2d8 !important;
     text-shadow: none !important;
+}
+
+.videojuegos-image-section {
+  padding: 20px;
+}
+
+.videojuegos-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images in one row */
+  gap: 10px;
+  width: 100%;
+}
+
+.videojuegos-image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.battle-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.battle-left-column {
+  flex: 1;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.battle-left-column img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.battle-right-column {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.battle-right-column img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 300px;
+  object-fit: cover;
+  aspect-ratio: 5 / 3; /* Maintain 500x300 aspect ratio */
 }
