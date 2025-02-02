@@ -117,3 +117,47 @@
   object-fit: cover;
   aspect-ratio: 5 / 3; /* Maintain 500x300 aspect ratio */
 }
+
+.music-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px; /* Space between columns */
+  flex-wrap: wrap;
+}
+
+/* Music Column - Each column will hold 30 images */
+.music-column {
+  display: flex;
+  flex-direction: column;
+  width: 48%; /* Make each column take 48% of the container width */
+}
+
+/* Title for each column */
+.music-column h4 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+/* Music Grid - Grid for images */
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  width: 100%;
+  grid-auto-rows: 70px; /* Set a fixed height for each row */
+}
+
+/* Style for images */
+.music-grid img {
+  width: 100%;        /* Ensures images fill their grid cell */
+  height: auto;
+  object-fit: cover;  /* Keeps aspect ratio, fills the square */
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (max-width: 1024px) {
+  .music-grid {
+      grid-template-columns: repeat(5, 1fr); /* 5 images per row on medium screens */
+  }
+}
