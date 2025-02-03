@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+html {
+  font-size: 16px !important;
+}
+  
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -57,9 +61,50 @@
     background-size: cover !important;
 }
 
+.slide-movies{
+  background:url("../images/bg-movies.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+
+.slide-music{
+  background:url("../images/bg-music.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.slide-games{
+  background:url("../images/bg-games.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
 .title h1{
+    text-transform: none !important;
     color:#1cb2d8 !important;
     text-shadow: none !important;
+    font-family:'Kanit' !important;
+    font-size: 8rem !important;
+}
+
+.title h2{
+  text-transform: none !important;
+  color:#fff !important;
+  text-shadow: none !important;
+  font-family:'Kanit' !important;
+  font-size: 3rem !important;
+}
+
+.title h3{
+  text-transform: none !important;
+  color:#fff !important;
+  text-shadow: none !important;
+  font-family:'Kanit' !important;
+  font-size: 2rem !important;
 }
 
 .videojuegos-image-section {
