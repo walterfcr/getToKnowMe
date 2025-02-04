@@ -177,12 +177,7 @@ html {
   width: 48%; /* Make each column take 48% of the container width */
 }
 
-/* Title for each column */
-.music-column h4 {
-  text-align: center;
-  margin-bottom: 5px;
-  font-size: 10px;
-}
+
 
 /* Music Grid - Grid for images */
 .music-grid {
