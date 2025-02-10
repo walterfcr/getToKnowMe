@@ -48,7 +48,7 @@ html {
 
 
 .primer-slide {
-    background:url("../images/x.jpg") !important;
+    background:url("../images/b-main.jpg") !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -62,7 +62,7 @@ html {
 }
 
 .slide-movies{
-  background:url("../images/bg-movies.jpg") !important;
+  background:url("../images/b-movies.jpg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -70,14 +70,21 @@ html {
 
 
 .slide-music{
-  background:url("../images/bg-music.jpg") !important;
+  background:url("../images/b-music.jpg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 .slide-games{
-  background:url("../images/bg-games.jpg") !important;
+  background:url("../images/b-games.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.slide-coffee-food{
+  background:url("../images/b-coffee.jpg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -105,6 +112,14 @@ html {
   text-shadow: none !important;
   font-family:'Kanit' !important;
   font-size: 2rem !important;
+}
+
+.image-5deg {
+  transform: rotate(5deg);
+}
+
+.image-355deg {
+  transform: rotate(355deg);
 }
 
 .videojuegos-image-section {
