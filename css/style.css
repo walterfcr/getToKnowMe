@@ -216,3 +216,22 @@ html {
       grid-template-columns: repeat(5, 1fr); /* 5 images per row on medium screens */
   }
 }
+
+
+.container-cafe {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las columnas se ajusten en pantallas pequeñas */
+  gap: 5px; /* Espaciado entre columnas */
+  align-items: center;
+}
+
+.columna-cafe {
+  flex: 1 1 30%; /* Establece que cada columna ocupe el 30% del espacio disponible */
+  box-sizing: border-box; /* Para que el padding no afecte el tamaño */
+
+}
+
+.columna-cafe img{
+  width:60%;
+  height:auto;
+}
