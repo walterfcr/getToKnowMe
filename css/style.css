@@ -95,7 +95,7 @@ html {
     color:#1cb2d8 !important;
     text-shadow: none !important;
     font-family:'Kanit' !important;
-    font-size: 8rem !important;
+    font-size: 6rem !important;
 }
 
 .title h2{
@@ -225,13 +225,17 @@ html {
   align-items: center;
 }
 
-.columna-cafe {
+.columna-cafe, .columna-bruja {
   flex: 1 1 30%; /* Establece que cada columna ocupe el 30% del espacio disponible */
   box-sizing: border-box; /* Para que el padding no afecte el tamaño */
-
 }
 
 .columna-cafe img{
   width:60%;
+  height:auto;
+}
+
+.columna-bruja img{
+  width:70%;
   height:auto;
 }
