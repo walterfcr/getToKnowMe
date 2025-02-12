@@ -90,6 +90,13 @@ html {
   background-size: cover !important;
 }
 
+.slide-atleti{
+  background:url("../images/b-atleti.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
 .title h1{
     text-transform: none !important;
     color:#1cb2d8 !important;
@@ -116,6 +123,10 @@ html {
 
 .image-5deg {
   transform: rotate(5deg);
+}
+
+.image-7deg {
+  transform: rotate(7deg);
 }
 
 .image-355deg {
@@ -239,3 +250,4 @@ html {
   width:70%;
   height:auto;
 }
+
