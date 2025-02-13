@@ -97,6 +97,20 @@ html {
   background-size: cover !important;
 }
 
+.title p {
+  font-family:'Kanit' !important;
+}
+
+.azul {
+  background:rgb(15, 15, 95);
+  width: 40%; /* Establece el ancho al 40% */
+  margin: 0 auto !important; /* Centra el elemento en el contenedor */
+  text-align: center !important; /* Centra el texto dentro del elemento */
+}
+
+
+
+
 .title h1{
     text-transform: none !important;
     color:#1cb2d8 !important;
@@ -120,6 +134,15 @@ html {
   font-family:'Kanit' !important;
   font-size: 2rem !important;
 }
+
+.title h4{
+  text-transform: none !important;
+  color:#fff !important;
+  text-shadow: none !important;
+  font-family:'Kanit' !important;
+  font-size: 2rem !important;
+}
+
 
 .image-5deg {
   transform: rotate(5deg);
